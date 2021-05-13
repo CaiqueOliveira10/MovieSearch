@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search </title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navigation">
+  <div class="container">
+   <span class="title">
+   <i class="fa fa-ticket"></i> MovieSearch
+  </span> 
+    <span class="search-control"  onclick="searchbox(1)">
+      Search <a style="font-family:fontawesome;"></a>
+    </span>
+</div>
+</nav>
+<form id="form" action="">
+<div class="container">
+    <div class="search-box" id="SBox">
+       <input id="search" placeholder="Search..." type="text">
+      <div class="also search-link" onclick="searchbox(0)" id="searchclick"></div>
+      <a class="fa fa-cog also setting"></a>
+    
+  </div>
+</div>
+</form>
+<main id="main">           
+</main>
+<br>
+<br>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
